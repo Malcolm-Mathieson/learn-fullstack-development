@@ -10,11 +10,7 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
-    resetCount()
 }
 
-function resetCount() {
-    count = 0
-    countEl.textContent = count
-}
-
+// Google:
+// innerText alternative mdn
