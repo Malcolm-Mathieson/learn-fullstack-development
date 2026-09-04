@@ -21,7 +21,7 @@ const App = (props) => {
   
   // CHALLENGE:
   // Change the query to one of your interests
-  let [query, setQuery] = useState("vampires");
+  let [query, setQuery] = useState("fairies");
   const queryInput = useRef(null);
 
   const numberOfPhotos = 20;
